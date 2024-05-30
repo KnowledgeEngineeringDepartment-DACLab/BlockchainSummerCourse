@@ -1,5 +1,9 @@
 
 # 🌞 BlockchainSummerCourse
+BlockchainSummerCourse!
+
+![image](https://github.com/KnowledgeEngineeringDepartment-DACLab/BlockchainSummerCourse/assets/141414350/bca08ba1-6349-464a-9abb-cf9802384300)
+
 
 Welcome to **BlockchainSummerCourse**, your ultimate destination for learning EVM chain smart contract development through interactive challenges. This platform is designed to provide practical experience and a deep understanding of EVM chain development concepts. This repository is based on a fork of [SpeedrunEthereum](https://github.com/KnowledgeEngineeringDepartment-DACLab/SpeedRunEthereum), enhanced with additional challenges and features.
 
@@ -35,7 +39,7 @@ To start your journey with BlockchainSummerCourse, follow these steps:
    cd blockchainsummercourse
    ```
 
-2. **Switch to Challenges Repository:**
+2. **Switch to Challenges Branch:**
    ```bash
    // Show list of all challenges
    git branch -r
