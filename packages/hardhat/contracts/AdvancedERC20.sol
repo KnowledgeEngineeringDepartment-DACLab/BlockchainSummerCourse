@@ -9,14 +9,13 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-
-uint256 constant MAX_SUPPLY = 1000000 * 10 ** 18;
 contract AdvancedERC20 is ERC20, ERC20Burnable, ERC20Pausable, Ownable{
+    uint256 public constant MAX_SUPPLY = 1000000 * 10 ** 18;
     constructor(address initialOwner)
         ERC20("Advenced ERC20", "AERC20")
         Ownable()
     {
-        // _mint(initialOwner, 1000000 * 10 ** decimals());
+        // _mint(initialOwner, 100000 * 10 ** decimals());
     }
     
     // Mint function to mint tokens
@@ -40,4 +39,5 @@ contract AdvancedERC20 is ERC20, ERC20Burnable, ERC20Pausable, Ownable{
     function unpause() public onlyOwner {
         _unpause();
     }
+
 }
